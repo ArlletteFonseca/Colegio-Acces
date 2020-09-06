@@ -1,0 +1,122 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+/* header styling */
+.headerContainer{
+  margin:0 auto;
+  width:1200px;
+  display:flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align:center;
+  margin-top:50px;
+
+
+
+}
+
+.navbarContainer{
+  margin-top:50px;
+  display:flex;
+  justify-content: space-evenly;
+  list-style: none;
+
+
+
+}
+.bold{
+  background:#C21548;
+  color:rgb(236, 229, 229);
+  border-radius:5px;
+  padding:10px 10px;
+}
+.navbarContainer a{
+  text-decoration:none;
+  font-size:.9rem;
+  color:gray;
+
+}
+
+
+
+
+/* home section landing page styling */
+.homeLanding{
+  margin:0 auto;
+  margin-top:50px;
+  background-image:url(./img/studentsComputer.jpg);
+  width:1500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height:400px;
+}
+
+/* degree list item styling */
+.listContainer{
+  display:flex;
+  width:1200px;
+  margin:0 auto;
+  justify-content: space-evenly;
+  margin-top:60px;
+}
+
+.pentagon{
+   background-color: #C21548;
+/* -webkit-clip-path: polygon(52% 79%, 87% 55%, 86% 0, 12% 0, 12% 57%); */
+clip-path: polygon(52% 79%, 87% 55%, 86% 0, 12% 0, 12% 57%);
+height: 200px;
+width:160px;
+}
+
+.contain{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items:center;
+  color:#2D2B3A;
+  width: 400px;
+  font-size: .8rem;
+}
+
+.degree{
+  width:300px;
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+
+}
+
+
+.shadowBox{
+  -webkit-box-shadow: -1px 0px 50px -3px rgba(186,194,194,0.79);
+-moz-box-shadow: -1px 0px 50px -3px rgba(186,194,194,0.79);
+box-shadow: -1px 0px 50px -3px rgba(186,194,194,0.79);
+  width:300px;
+  height:400px;
+}
+
+.mainLogo{
+  color:#2D2B3A;
+  font-weight: lighter;
+}
+
+.actionContainer{
+  width:100px;
+  margin:0 auto;
+  display:flex;
+}
+
+.actionButtons{
+  height:50px;
+  width:300px
+}
