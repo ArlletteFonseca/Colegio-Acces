@@ -67,12 +67,13 @@ body{
   margin:0 auto;
   justify-content: space-evenly;
   margin-top:60px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .pentagon{
    background-color: #C21548;
 /* -webkit-clip-path: polygon(52% 79%, 87% 55%, 86% 0, 12% 0, 12% 57%); */
-clip-path: polygon(52% 79%, 87% 55%, 86% 0, 12% 0, 12% 57%);
+clip-path: polygon(100% 67%, 100% 0, 0 0, 0 66%, 49% 85%);
 height: 200px;
 width:160px;
 }
@@ -111,12 +112,35 @@ box-shadow: -1px 0px 50px -3px rgba(186,194,194,0.79);
 }
 
 .actionContainer{
-  width:100px;
+  width:700px;
   margin:0 auto;
   display:flex;
+  height:100px;
+  align-content: center;
+  margin-top:50px;
+  justify-content: space-evenly;
 }
 
 .actionButtons{
-  height:50px;
-  width:300px
+  height:60px;
+  color:rgb(236, 229, 229);
+  width:270px;
+  font-size: 1.3rem;
+  border:none;
+  border-radius: .2rem;
+}
+
+.start{
+ background-color:#C21548;
+}
+
+.more{
+  background-color:#000000;
+}
+
+.perito{
+   background-color:#000000;
+}
+.oficinista{
+  background-color:#96959C;
 }
