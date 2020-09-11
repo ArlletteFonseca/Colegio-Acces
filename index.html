@@ -6,6 +6,7 @@
   <title>Colegio Acces</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="fonts.css">
+  <script src="https://kit.fontawesome.com/fd6522954d.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <header id="header">
@@ -13,33 +14,38 @@
     <h1 class="mainLogo">Colegio Acces</h1>
     <nav>
       <ul class="navbarContainer">
-        <li><a href="index.html" class="bold">Pagina Principal</a></li>
-        <li><a href="educacion.html">Educacion</a></li>
-        <li ><a href="nueva.html">Nueva Santa Rosa</a></li>
+        <li id="index"><a href="index.html">Pagina Principal</a></li>
+        <li id="educacion"><a href="educacion.html">Educacion</a></li>
+        <li id="nueva"><a href="nueva.html">Nueva Santa Rosa</a></li>
       </ul>
     </nav>
   </div>
 </header>
-<section id="home-section">
-  <div class="homeLanding">
-  </div>
+<section id="mainPicture">
+  <div class="homeLandingPicture"></div>
 </section>
 <section id="list-items">
   <div class="listContainer">
-    <div class="contain shadowBox">
-      <div class="pentagon"></div>
+    <div class="pentagonContainer" id="cog">
+      <div class="pentagon construccion">
+        <i class="fas fa-cog fa-7x icon"></i>
+      </div>
       <div class="degree">
         <h1 >Bachillerato en Construccion</h1>
       </div>
     </div>
-    <div class="contain">
-      <div class="pentagon perito"></div>
+    <div class="pentagonContainer" id="bolt">
+      <div class="pentagon perito">
+        <i class="fas fa-bolt fa-7x icon"></i>
+      </div>
        <div class="degree">
          <h1>Perito Contador</h1>
        </div>
     </div>
-    <div class="contain">
-      <div class="pentagon oficinista"></div>
+    <div class="pentagonContainer" id="star">
+      <div class="pentagon oficinista">
+        <i class="fas fa-star fa-7x icon"></i>
+      </div>
       <div class="degree">
         <h1>Secretariado Y Oficinista</h1>
       </div>
@@ -56,5 +62,6 @@
     </div>
   </div>
 </section>
+<script src="main.js"></script>
 </body>
 </html>

@@ -8,19 +8,35 @@ body{
 
 }
 
+/* classList items to add to the dom */
+.bold{
+  background: #d52349;
+  color:rgb(236, 229, 229);
+  border-radius:5px;
+  padding:10px 10px;
+}
+.shadowBox{
+  -webkit-box-shadow: -1px 0px 50px -3px rgba(186,194,194,0.79);
+  -moz-box-shadow: -1px 0px 50px -3px rgba(186,194,194,0.79);
+  box-shadow: -1px 0px 50px -3px rgba(186,194,194,0.79);
+  width:300px;
+  height:400px;
+}
+/* top school name logo */
+.mainLogo{
+  color:#2D2B3A;
+  font-weight: lighter;
+}
 /* header styling */
 .headerContainer{
   margin:0 auto;
-  width:1200px;
+  width:1000px;
   display:flex;
   flex-direction: column;
   align-content: center;
   justify-content: center;
   text-align:center;
   margin-top:50px;
-
-
-
 }
 
 .navbarContainer{
@@ -28,39 +44,27 @@ body{
   display:flex;
   justify-content: space-evenly;
   list-style: none;
-
-
-
 }
-.bold{
-  background:#C21548;
-  color:rgb(236, 229, 229);
-  border-radius:5px;
-  padding:10px 10px;
-}
+
 .navbarContainer a{
   text-decoration:none;
   font-size:.9rem;
   color:gray;
-
 }
 
-
-
-
 /* home section landing page styling */
-.homeLanding{
+.homeLandingPicture{
   margin:0 auto;
   margin-top:50px;
   background-image:url(./img/studentsComputer.jpg);
-  width:1500px;
+  width:1200px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height:400px;
 }
 
-/* degree list item styling */
+/* degree list item styling with pentagon */
 .listContainer{
   display:flex;
   width:1200px;
@@ -71,14 +75,16 @@ body{
 }
 
 .pentagon{
-   background-color: #C21548;
 /* -webkit-clip-path: polygon(52% 79%, 87% 55%, 86% 0, 12% 0, 12% 57%); */
 clip-path: polygon(100% 67%, 100% 0, 0 0, 0 66%, 49% 85%);
 height: 200px;
 width:160px;
+display:flex;
+align-content: center;
+justify-content: center;
 }
 
-.contain{
+.pentagonContainer{
   display:flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -86,6 +92,8 @@ width:160px;
   color:#2D2B3A;
   width: 400px;
   font-size: .8rem;
+   width:300px;
+  height:400px;
 }
 
 .degree{
@@ -94,23 +102,9 @@ width:160px;
   display:flex;
   justify-content: center;
   align-items:center;
-
 }
 
-
-.shadowBox{
-  -webkit-box-shadow: -1px 0px 50px -3px rgba(186,194,194,0.79);
--moz-box-shadow: -1px 0px 50px -3px rgba(186,194,194,0.79);
-box-shadow: -1px 0px 50px -3px rgba(186,194,194,0.79);
-  width:300px;
-  height:400px;
-}
-
-.mainLogo{
-  color:#2D2B3A;
-  font-weight: lighter;
-}
-
+/* action buttons start=empezar more=aprende mas */
 .actionContainer{
   width:700px;
   margin:0 auto;
@@ -120,7 +114,6 @@ box-shadow: -1px 0px 50px -3px rgba(186,194,194,0.79);
   margin-top:50px;
   justify-content: space-evenly;
 }
-
 .actionButtons{
   height:60px;
   color:rgb(236, 229, 229);
@@ -131,16 +124,26 @@ box-shadow: -1px 0px 50px -3px rgba(186,194,194,0.79);
 }
 
 .start{
- background-color:#C21548;
+ background-color:#d52349;
 }
 
 .more{
   background-color:#000000;
 }
 
+/* degree pentagon background colors */
 .perito{
    background-color:#000000;
 }
 .oficinista{
   background-color:#96959C;
+}
+.construccion{
+     background-color:  #d52349;
+}
+
+/* font awesome icons */
+.icon{
+  color:white;
+  margin-top:30px;
 }
