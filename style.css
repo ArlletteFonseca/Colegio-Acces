@@ -18,9 +18,15 @@ body{
   height:400px;
 }
 .boldGray{
-  background: #e0dede;
+  background: #F2F2F2;
   border-radius:5px;
   padding:8px 9px;
+}
+.lightRed{
+  color:#D9385B;
+}
+.lightBlack{
+
 }
 
 /* top school name logo */

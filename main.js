@@ -1,9 +1,8 @@
-// constants
+// Degree icon mouseover events
 const cog=document.getElementById("cog");
 const bolt=document.getElementById("bolt");
 const star=document.getElementById("star");
 
-// event listeners
 cog.addEventListener("mouseover",addShadow);
 bolt.addEventListener("mouseover",addShadow2);
 star.addEventListener("mouseover",addShadow3);
@@ -30,7 +29,7 @@ function remove3() {
   star.classList.remove("shadowBox");
 }
 
-
+//  Navbar mouseover events
 const index=document.getElementById("index");
 const educacion=document.getElementById("educacion");
 console.log(educacion)
@@ -43,8 +42,6 @@ nueva.addEventListener("mouseover",addBold3);
 index.addEventListener("mouseout",removeBold);
 educacion.addEventListener("mouseout",removeBold2);
 nueva.addEventListener("mouseout",removeBold3);
-
-
 
 function addBold(){
   index.classList.add("boldGray");
@@ -65,3 +62,8 @@ function removeBold2(){
 function removeBold3(){
   nueva.classList.remove("boldGray");
 }
+
+// action buttons mouseover events
+
+const startBtn=document.getElementsByClassName("start");
+console.log(startBtn);
