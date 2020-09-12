@@ -32,14 +32,36 @@ function remove3() {
 
 
 const index=document.getElementById("index");
-console.log(index);
-
 const educacion=document.getElementById("educacion");
-
+console.log(educacion)
 const nueva=document.getElementById("nueva");
-index.addEventListener("mouseover", addShadow);
-educacion.addEventListener("mouseover", addShadow2);
-nueva.addEventListener("mouseover", addShadow3);
-index.addEventListener("mouseout", remove);
-educacion.addEventListener("mouseout", remove2);
-nueva.addEventListener("mouseout", remove3);
+
+index.addEventListener("mouseover",addBold);
+educacion.addEventListener("mouseover",addBold2);
+nueva.addEventListener("mouseover",addBold3);
+
+index.addEventListener("mouseout",removeBold);
+educacion.addEventListener("mouseout",removeBold2);
+nueva.addEventListener("mouseout",removeBold3);
+
+
+
+function addBold(){
+  index.classList.add("boldGray");
+}
+function addBold2(){
+  educacion.classList.add("boldGray");
+}
+function addBold3(){
+  nueva.classList.add("boldGray");
+}
+
+function removeBold(){
+  index.classList.remove("boldGray");
+}
+function removeBold2(){
+  educacion.classList.remove("boldGray");
+}
+function removeBold3(){
+  nueva.classList.remove("boldGray");
+}
