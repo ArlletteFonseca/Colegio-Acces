@@ -32,7 +32,6 @@ function remove3() {
 //  Navbar mouseover events
 const index=document.getElementById("index");
 const educacion=document.getElementById("educacion");
-console.log(educacion)
 const nueva=document.getElementById("nueva");
 
 index.addEventListener("mouseover",addBold);
@@ -65,5 +64,24 @@ function removeBold3(){
 
 // action buttons mouseover events
 
-const startBtn=document.getElementsByClassName("start");
-console.log(startBtn);
+const startBtn=document.getElementById("empezar");
+startBtn.addEventListener("mouseover",addLight);
+startBtn.addEventListener("mouseout",removeLight);
+function addLight(){
+  startBtn.classList.add("light");
+}
+function removeLight(){
+  startBtn.classList.remove("light");
+}
+
+const moreBtn=document.getElementById("aprende");
+moreBtn.addEventListener("mouseover",addDark);
+moreBtn.addEventListener("mouseout",removeDark);
+
+function addDark(){
+  moreBtn.classList.add("dark")
+}
+
+function removeDark(){
+  moreBtn.classList.remove("dark");
+}

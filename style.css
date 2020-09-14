@@ -3,9 +3,10 @@
   padding:0;
   box-sizing:border-box;
 }
-body{
-  font-family: 'Quicksand', sans-serif;
 
+body{
+  font-family: 'Ranchers', cursive;
+  font-family: 'Raleway', sans-serif;
 }
 
 /* classList items to add to the dom */
@@ -22,12 +23,8 @@ body{
   border-radius:5px;
   padding:8px 9px;
 }
-.lightRed{
-  color:#D9385B;
-}
-.lightBlack{
 
-}
+
 
 /* top school name logo */
 .mainLogo{
@@ -38,7 +35,7 @@ body{
 /* header styling */
 .headerContainer{
   margin:0 auto;
-  width:1000px;
+  width:1100px;
   display:flex;
   flex-direction: column;
   align-content: center;
@@ -74,7 +71,7 @@ body{
   margin:0 auto;
   margin-top:40px;
   background-image:url(./img/studentsComputer.jpg);
-  width:1200px;
+  width:100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -88,7 +85,7 @@ body{
   margin:0 auto;
   justify-content: space-evenly;
   margin-top:60px;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+
 }
 
 .pentagon{
@@ -163,4 +160,83 @@ justify-content: center;
 .icon{
   color:white;
   margin-top:30px;
+}
+
+.light{
+  background:#D9385B;
+
+}
+
+.dark{
+  background:#323232;
+}
+
+/* calendar of events footer*/
+.footer{
+  background:#000000;
+  width:100%;
+  height:400px;
+  display:flex;
+  justify-content: space-evenly;
+}
+.calendar{
+  width:90%;
+}
+.flagBox{
+  width:100%;
+  height:70px;
+  border-bottom: 1px solid rgba(255,255,255,.25);
+  color:white;
+  display:flex;
+}
+.flag{
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  background:#d52349;
+  width:65px;
+  height:50px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.flagWriting{
+  margin-left:50px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.event{
+  margin:0;
+}
+.eventDescription{
+  color:#A3A3A3;
+  margin:0;
+}
+
+.calendar p{
+  color:white;
+  margin:20px 0;
+}
+
+.footerImg{
+  background-image: url(./img/outsideSchool.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:400px;
+  height:300px;
+}
+
+.footer{
+  display:flex;
+
+}
+.about{
+  width:50%;
+}
+
+.about p{
+  color:white;
+  margin:20px 0;
 }
