@@ -1,16 +1,22 @@
+/* Universal Styling */
 *{
   margin:0;
   padding:0;
   box-sizing:border-box;
 }
-
 body{
   font-family: 'Ranchers', cursive;
   font-family: 'Raleway', sans-serif;
 }
+a{
+  text-decoration:none;
+}
+a:visited, a:hover, a:focus {
+    text-decoration: none;
+    color: #000;
+}
 
 /* classList items to add to the dom */
-
 .shadowBox{
   -webkit-box-shadow: -1px 0px 50px -3px rgba(186,194,194,0.79);
   -moz-box-shadow: -1px 0px 50px -3px rgba(186,194,194,0.79);
@@ -24,13 +30,76 @@ body{
   padding:8px 9px;
 }
 
+/*  floating modal*/
+.modal {
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  position:fixed;
+  width:100%;
+  top: 3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background:rgba(60, 60, 60, 0.5);
+  color:white;
+  z-index:1;
+}
+.modalLinks{
+  display:flex;
+  justify-content: space-evenly;
+  width:50%;
+}
+.linkSearch{
+  display:flex;
+  justify-content: space-evenly;
+  width:20%;
+  align-items: center;
+}
+.modal a{
+  color:white;
+}
+.modal i{
+  margin:5px 5px;}
 
-
-/* top school name logo */
+/* dropdown menu */
+.dropbtn {
+  background-color: #d52349;
+  color: white;
+  padding:8px 8px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 240px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+/* main logo title of page */
 .mainLogo{
   color:#2D2B3A;
   font-weight: bold;
   font-size:2.5rem;
+  margin-top:20px;
 }
 /* header styling */
 .headerContainer{
@@ -43,21 +112,17 @@ body{
   text-align:center;
   margin-top:50px;
 }
-
 .navbarContainer{
   margin-top:50px;
   display:flex;
   justify-content: space-evenly;
   align-content: center;
   list-style: none;
-
 }
 .navbarContainer li{
   width:150px;
   height:30px;
-
 }
-
 .navbarContainer a{
   text-decoration:none;
   width:150px;
@@ -81,35 +146,31 @@ body{
 /* degree list item styling with pentagon */
 .listContainer{
   display:flex;
-  width:1200px;
+  width:100%;
   margin:0 auto;
-  justify-content: space-evenly;
+  align-items: center;
+  justify-content: center;
   margin-top:60px;
-
 }
-
 .pentagon{
 /* -webkit-clip-path: polygon(52% 79%, 87% 55%, 86% 0, 12% 0, 12% 57%); */
 clip-path: polygon(100% 67%, 100% 0, 0 0, 0 66%, 49% 85%);
 height: 200px;
-width:160px;
+width:180px;
 display:flex;
 align-content: center;
 justify-content: center;
 }
-
 .pentagonContainer{
   display:flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items:center;
   color:#2D2B3A;
-  width: 400px;
+  width: 410px;
   font-size: .8rem;
-   width:300px;
-  height:400px;
+  height:500px;
 }
-
 .degree{
   width:300px;
   text-align: center;
@@ -136,11 +197,9 @@ justify-content: center;
   border:none;
   border-radius: .2rem;
 }
-
 .start{
  background-color:#d52349;
 }
-
 .more{
   background-color:#000000;
 }
@@ -164,7 +223,6 @@ justify-content: center;
 
 .light{
   background:#D9385B;
-
 }
 
 .dark{
@@ -199,12 +257,11 @@ justify-content: center;
   align-items: center;
   justify-content: space-evenly;
 }
-
 .flagWriting{
   margin-left:50px;
   display:flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  font-size:.5rem;
   align-items: center;
 }
 .event{
@@ -214,29 +271,25 @@ justify-content: center;
   color:#A3A3A3;
   margin:0;
 }
-
 .calendar p{
   color:white;
-  margin:20px 0;
+  margin:30px 30px;
 }
-
 .footerImg{
   background-image: url(./img/outsideSchool.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width:400px;
   height:300px;
+  margin-left:30px;
 }
-
 .footer{
   display:flex;
-
 }
 .about{
   width:50%;
 }
-
 .about p{
   color:white;
-  margin:20px 0;
+  margin:30px 30px;
 }
