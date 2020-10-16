@@ -47,6 +47,33 @@ a:visited, a:hover, a:focus {
 
 .paragraphContainer{
 display:flex;
-align-items:center ;
-justify-content: space-evenly;
+flex-direction: column;
+margin:0 auto;
+align-items: center;
+
+}
+
+.rectangle{
+  background-color:white;
+  border:1px solid rgb(196, 186, 186);
+  width:500px;
+  height:150px;
+  margin-bottom:10px;
+  display: flex;
+  align-items: center;
+}
+.rectangle span{
+ padding:10px 10px;
+}
+
+.paragraph p{
+  text-align: center;
+  margin-bottom:20px;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.rectangleContainer{
+  display:flex;
+  
 }

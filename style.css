@@ -67,11 +67,13 @@ a:visited, a:hover, a:focus {
   padding:10px 10px;
   border: none;
   cursor: pointer;
-  margin-top:8px;
+  height:60px;
+ 
 }
 .dropdown {
   position: relative;
   display: inline-block;
+
 }
 .dropdown-content {
   display: none;
