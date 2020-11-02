@@ -8,37 +8,76 @@
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;0,900;1,300&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/fd6522954d.js" crossorigin="anonymous"></script>
 </head>
-<body>
-  <div class="headerContainer">
-    <h1 class="mainLogo">Nueva Santa Rosa</h1>
+<header id="header">
+  <div class="modal">
+    <div class="modalLinks">
+      <a href="https://www.facebook.com/colegiodecomputacionacces/"><i class="fab fa-facebook-square"></i>Facebook </a>
+      <p><i class="fas fa-phone-square-alt"></i>502.7888.9145</p>
+      <p><i class="fas fa-envelope-square"></i>colegioacces@gmail.com</p>
+    </div>
+    <div class="linkSearch">
+      <div class="dropdown">
+        <button class="dropbtn"><i class="fas fa-bars"></i>MENU</button>
+        <div class="dropdown-content">
+          <a href="index.html">Pagina Principal</a>
+          <a href="educacion.html">Educacion</a>
+          <a href="nueva.html">Nueva Santa Rosa</a>
+        </div>
+      </div>
+    </div>
   </div>
-<div class="nueva"></div>
+  <div class="headerContainer">
+    <h1 class="mainLogo">Colegio Acces</h1>
+    <p>Institución Educativa</p>
+    <nav>
+      <ul class="navbarContainer">
+        <li><a href="index.html" id="index">Pagina Principal</a></li>
+        <li><a href="educacion.html" id="educacion">Educacion</a></li>
+        <li><a href="nueva.html" id="nueva">Nueva Santa Rosa</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="nueva">
+  <div class="titleContainer">
+    <h1 class="title">Nueva Santa Rosa</h1>
+    <p>70 millas de ciudad de Guatemala</p>
+  </div>
+
+</div>
 <div class="paragraph">
-<p>Porque deverias elejir Colegio Acces en Nueva Santa Rosa?</p>
+  <p>Porque deverias elejir Colegio Acces en Nueva Santa Rosa?</p>
   <div class="paragraphContainer">
-<div><i class="fas fa-map-marked-alt fa-7x"></i></div>
-<div class="rectangle">
-  <span>Nueva Santa Rosa se localiza a una hora de la ciudad de
-  Guatemala. Nueva Santa Rosa está lleno de riqueza natural y muchos lugares donde pudieras conocer, con un clima variado.</span>
+    <div class="rectangleContainer">
+      <div class="icon"><i class="fas fa-map-marked-alt fa-7x"></i></div>
+      <div class="rectangle">
+        <span  class="span">Nueva Santa Rosa se localiza a una hora de la ciudad de
+        Guatemala. Nueva Santa Rosa está lleno de riqueza natural y muchos lugares donde pudieras conocer, con un clima variado.</span>
+      </div>
+    </div>
+    <div class="rectangleContainer">
+      <div class="icon"><i class="fas fa-swimmer fa-7x"></i></div>
+      <div class="rectangle" >
+        <span class="span">Nueva Santa Rosa es un destino ideal para disfrutar las maravillas de Guatemala. Desde lagunas rodeadas como: Laguna De Ayarza Y Laguna El
+        Pino. En estas lagunas se pueden hacer actividades extremas como bucear y kayak y tambien las actividades acuaticas.</span>
+      </div>
+    </div>
+    <div class="rectangleContainer">
+      <div class="icon"><i class="fas fa-church fa-7x"></i></div>
+      <div class="rectangle">
+      <span class="span">El parque Central de Nueva Santa Rosa podrás encontrar mucha vegetación, arcos con bancas para que puedas descansar y
+      también una linda catedral al fondo. Este es un sitio que se caracteriza por ser muy colorido, lleno de vida y de
+      cultura.
+      </span>
+      </div>
+    </div>
+  </div>
 </div>
-<div class="rectangleContainer">
-<div><i class="fas fa-swimmer fa-7x"></i></div>
-<div class="rectangle">
-  <span>Un destino ideal para disfrutar las maravillas de Guatemala. Desde lagunas rodeadas como: Laguna De Ayarza Y Laguna El
-  Pino. En estas lagunas se pueden hacer actividades extremas como bucear y kayak y tambien las actividades acuaticas.</span>
-</div>
-</div>
-
-<div><i class="fas fa-church fa-7x"></i></div>
-<div class="rectangle">
-  <span>El parque Central de Nueva Santa Rosa podrás encontrar mucha vegetación, arcos con bancas para que puedas descansar y
-  también una linda catedral al fondo. Este es un sitio que se caracteriza por ser muy colorido, lleno de vida y de
-  cultura.</span>
-</div>
-</div>
-
-</div>
+<script src="nueva.js"></script>
+<script src="main.js"></script>
 </body>
 </html>

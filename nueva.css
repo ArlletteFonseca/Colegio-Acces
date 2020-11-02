@@ -25,6 +25,9 @@ a:visited, a:hover, a:focus {
   margin:0 auto;
   background-size: cover;
   margin-top:40px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mainLogo{
@@ -50,30 +53,72 @@ display:flex;
 flex-direction: column;
 margin:0 auto;
 align-items: center;
-
+font-size: 1.3rem;
 }
 
 .rectangle{
   background-color:white;
   border:1px solid rgb(196, 186, 186);
-  width:500px;
+  width:700px;
   height:150px;
   margin-bottom:10px;
   display: flex;
   align-items: center;
 }
-.rectangle span{
- padding:10px 10px;
+.span{
+ padding:30px 30px;
 }
 
 .paragraph p{
   text-align: center;
   margin-bottom:20px;
   font-weight: bold;
-  font-size: 1.3rem;
+  font-size: 1.8rem;
 }
 
 .rectangleContainer{
   display:flex;
-  
+  flex-direction:column;
+  justify-content: space-evenly;
+  height: 400px;
+}
+
+.fa-swimmer{
+  color:#66B2FF;
+}
+
+.fa-church{
+  color:#7E5858;
+}
+
+.fa-map-marked-alt{
+  color:#7FBF7F;
+}
+
+.icon{
+  display:flex;
+  justify-content: center;
+}
+
+.title{
+  color:white;
+}
+.titleContainer{
+  background:#2D2B3A;
+  width:500px;
+  height:150px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.titleContainer p{
+  color:#d52349;
+}
+.shadow{
+
+ -webkit-box-shadow: -1px 0px 50px -3px rgba(186,194,194,0.79);
+  -moz-box-shadow: -1px 0px 50px -3px rgba(186,194,194,0.79);
+  box-shadow: -1px 0px 50px -3px rgba(186,194,194,0.79);
+
 }
