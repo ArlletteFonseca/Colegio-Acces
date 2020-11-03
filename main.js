@@ -35,15 +35,15 @@ function removeBold3(){
 
 // action buttons mouseover events
 
-const startBtn=document.getElementById("empezar");
-startBtn.addEventListener("mouseover",addLight);
-startBtn.addEventListener("mouseout",removeLight);
-function addLight(){
-  startBtn.classList.add("light");
-}
-function removeLight(){
-  startBtn.classList.remove("light");
-}
+// const startBtn=document.getElementById("empezar");
+// startBtn.addEventListener("mouseover",addLight);
+// startBtn.addEventListener("mouseout",removeLight);
+// function addLight(){
+//   startBtn.classList.add("light");
+// }
+// function removeLight(){
+//   startBtn.classList.remove("light");
+// }
 
 const moreBtn=document.getElementById("aprende");
 moreBtn.addEventListener("mouseover",addDark);

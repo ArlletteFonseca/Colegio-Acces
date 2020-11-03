@@ -18,6 +18,14 @@ a:visited, a:hover, a:focus {
 }
 .container{
   text-align: center;
+  margin-top:30px;
+
+}
+.row{
+  display:flex;
+  margin-top:20px;
+  margin-bottom:20px;
+
 }
 .images{
   background-size: cover;
