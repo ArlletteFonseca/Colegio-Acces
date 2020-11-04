@@ -193,6 +193,7 @@ justify-content: center;
 }
 
 /* action buttons start=empezar more=aprende mas */
+
 .actionContainer{
   width:700px;
   margin:0 auto;
@@ -204,11 +205,15 @@ justify-content: center;
 }
 .actionButtons{
   height:60px;
-  color:rgb(236, 229, 229);
+
   width:250px;
   font-size: 1.3rem;
   border:none;
   border-radius: .2rem;
+}
+.actionButtons a{
+  color:rgb(236, 229, 229);
+
 }
 .start{
  background-color:#d52349;
@@ -351,10 +356,6 @@ justify-content: center;
 }
 
 
-
-.hidden{
-  display:none;
-}
 /* Media Queries */
   /* // Landscape phones and down */
   @media (max-width: 480px) {
