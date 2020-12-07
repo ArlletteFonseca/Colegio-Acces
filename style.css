@@ -10,11 +10,11 @@ body{
   line-height: 1.75em;
 }
 a{
-  text-decoration:none;
+  /* text-decoration:none; */
 }
 a:visited, a:hover, a:focus {
-    text-decoration: none;
-    color: #000;
+    /* text-decoration: none;
+    color: #000; */
 }
 
 /* classList items to add to the dom */
@@ -348,7 +348,9 @@ justify-content: center;
 .copyright span{
   color:#d52349;
 }
-
+.eventDescription a {
+  color: white;
+}
 
 
 
