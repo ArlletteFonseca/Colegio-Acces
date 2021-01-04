@@ -1,33 +1,4 @@
-// Degree icon mouseover events
-const cog=document.getElementById("cog");
-const bolt=document.getElementById("bolt");
-const star=document.getElementById("star");
 
-cog.addEventListener("mouseover",addShadow);
-bolt.addEventListener("mouseover",addShadow2);
-star.addEventListener("mouseover",addShadow3);
-cog.addEventListener("mouseout",remove);
-bolt.addEventListener("mouseout",remove2);
-star.addEventListener("mouseout",remove3);
-
-function addShadow(){
-  cog.classList.add("shadowBox");
-}
-function addShadow2(){
-  bolt.classList.add("shadowBox");
-}
-function addShadow3(){
-  star.classList.add("shadowBox");
-}
-function remove(){
-  cog.classList.remove("shadowBox");
-}
-function remove2(){
-  bolt.classList.remove("shadowBox");
-}
-function remove3() {
-  star.classList.remove("shadowBox");
-}
 
 //  Navbar mouseover events
 const index=document.getElementById("index");
@@ -84,4 +55,19 @@ function addDark(){
 
 function removeDark(){
   moreBtn.classList.remove("dark");
+}
+
+//  updated js
+const pentagon = document.getElementsByClassName('pentagonContainer');
+
+
+for (let i = 0; i <= pentagon.length; i++) {
+  pentagon[i].addEventListener('mouseover', () => {
+    pentagon[i].classList.add('shadowBox');
+  })
+  pentagon[i].addEventListener('mouseout', () => {
+    pentagon[i].classList.remove('shadowBox');
+
+  })
+
 }
