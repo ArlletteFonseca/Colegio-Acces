@@ -1,0 +1,73 @@
+/* Universal Styling */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+
+}
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.75em;
+}
+a{
+  text-decoration:none;
+}
+a:visited, a:hover, a:focus {
+    text-decoration: none;
+    color: #000;
+}
+.container{
+  text-align: center;
+  margin-top:30px;
+
+
+}
+.row{
+  display:flex;
+  margin-top:20px;
+  margin-bottom:20px;
+  justify-content: center;
+
+}
+.images{
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:400px;
+  height:250px;
+  margin:5px 5px;
+}
+.img1{
+  background-image: url(/img/IMG_2934.jpg);
+}
+
+.img2{
+  background-image: url(./img/IMG_2937.jpg);
+
+}
+.img3{
+  background-image: url(./img/IMG_2949.jpg);
+}
+.img4{
+  background-image:url(./img/IMG_2970.jpg) ;
+}
+.img5{
+  background-image:url(./img/IMG_2977.jpg)
+}
+.img6{
+  background-image: url(./img/IMG_3001.jpg);
+}
+.img7{
+  background-image: url(./img/IMG_2923.jpg);
+}
+.img8{
+  background-image: url(./img/IMG_2927.jpg);
+}
+.img9{
+  background-image: url(./img/IMG_2934.jpg)
+
+}
+.row1{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
