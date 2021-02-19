@@ -361,9 +361,12 @@ justify-content: center;
 /* Media Queries */
   /* // Landscape phones and down */
   @media (max-width: 500px) {
-     .pentagonContainer{
-      width: 300px;
+    .pentagonContainer{
       height:200px;
+    }
+     .pentagon{
+      width: 100px;
+      height:150px;
     }
     .degree h1{
       font-size:1rem;
