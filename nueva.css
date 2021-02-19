@@ -122,3 +122,23 @@ font-size: 1.3rem;
   box-shadow: -1px 0px 50px -3px rgba(186,194,194,0.79);
 
 }
+
+  @media (max-width: 500px) {
+
+  #nueva-modal{
+    display:none;
+  }
+
+
+   .images{
+     background-size: contain;
+   }
+   .titleContainer{
+     display:none;
+   }
+   .rectangle{
+     width:350px;
+     font-size: 10pt;
+     height:200px;
+   }
+  }

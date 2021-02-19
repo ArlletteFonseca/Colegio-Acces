@@ -22,6 +22,7 @@ a:visited, a:hover, a:focus {
 
 
 }
+
 .row{
   display:flex;
   margin-top:20px;
@@ -71,3 +72,21 @@ a:visited, a:hover, a:focus {
   justify-content: space-evenly;
   align-items: center;
 }
+
+  @media (max-width: 500px) {
+
+   .modal{
+     width:100%;
+   }
+   .modalLinks{
+     font-size: 10pt;
+     width:100%;
+     display:flex;
+     justify-content: space-between;
+
+   }
+
+   .images{
+     background-size: contain;
+   }
+  }

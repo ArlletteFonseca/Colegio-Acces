@@ -360,10 +360,32 @@ justify-content: center;
 
 /* Media Queries */
   /* // Landscape phones and down */
-  @media (max-width: 480px) {
+  @media (max-width: 500px) {
      .pentagonContainer{
-      width: 150px;
-      height:300px;
+      width: 300px;
+      height:200px;
     }
+    .degree h1{
+      font-size:1rem;
+    }
+    .calendar,.actionButtons,.dropdown,.fas{
+      display:none;
+    }
+   .mission{
+     font-size:10pt;
+   }
+   .footerImg{
+     height:130px;
+   }
+   .aboutTitle{
+     text-align:center;
+   }
+   .modal{
+     width:100%;
+   }
+   .modalLinks{
+     font-size: 10pt;
+     width:50%;
+   }
 
   }
