@@ -393,5 +393,7 @@ justify-content: center;
    .fas{
       font-size:.875em;
    }
-  
+   .email{
+     display:none;
+   }
   }
