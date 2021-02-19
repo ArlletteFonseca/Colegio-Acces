@@ -371,7 +371,7 @@ justify-content: center;
     .degree h1{
       font-size:1rem;
     }
-    .calendar,.actionButtons,.dropdown,.fas{
+    .calendar,.actionButtons,.dropdown{
       display:none;
     }
    .mission{
@@ -390,5 +390,10 @@ justify-content: center;
      font-size: 10pt;
      width:50%;
    }
-
+   .fas{
+      font-size:.875em;
+   }
+   .email{
+     display:none;
+   }
   }
