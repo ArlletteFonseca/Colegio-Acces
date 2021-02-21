@@ -88,5 +88,10 @@ a:visited, a:hover, a:focus {
 
    .images{
      background-size: contain;
+     width:300px;
+     height:150px;
+   }
+   .img3,.img6,.img9{
+     display:none;
    }
   }
