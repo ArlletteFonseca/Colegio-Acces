@@ -1,10 +1,11 @@
-/* Universal Styling */
+  /* Universal Styling */
 *{
   margin:0;
   padding:0;
   box-sizing:border-box;
 
 }
+
 body{
   font-family: 'Source Sans Pro', sans-serif;
   line-height: 1.75em;
@@ -387,9 +388,10 @@ justify-content: center;
    .aboutTitle{
      text-align:center;
    }
-   .modal{
+   .modal {
      width:100%;
    }
+
 
    .fas{
       font-size:.875em;
