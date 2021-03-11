@@ -58,12 +58,15 @@ font-size: 1.3rem;
 
 .rectangle{
   background-color:white;
-  border:1px solid rgb(196, 186, 186);
+  border:3px solid rgb(196, 186, 186);
+  border-radius: 40px;
   width:700px;
   height:150px;
   margin-bottom:10px;
   display: flex;
   align-items: center;
+  font-size: 1.3rem;
+  height:200px;
 }
 .span{
  padding:30px 30px;
@@ -136,9 +139,5 @@ font-size: 1.3rem;
    .titleContainer{
      display:none;
    }
-   .rectangle{
-     width:350px;
-     font-size: 10pt;
-     height:200px;
-   }
+
   }

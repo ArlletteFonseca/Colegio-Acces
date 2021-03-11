@@ -46,11 +46,13 @@ a:visited, a:hover, a:focus {
 .modalLinks{
   display:flex;
   justify-content: space-evenly;
-  width:500px;
-  margin-top:8px;
+  width:600px;
+  margin-top:25px;
   z-index:1;
   font-size:1.2rem;
+  padding:5px 5px
 }
+
 .linkSearch{
   width:10%;
 }
@@ -68,6 +70,7 @@ a:visited, a:hover, a:focus {
   border: none;
   cursor: pointer;
   height:60px;
+  margin-top: 20px;
 
 }
 .dropdown {
@@ -134,7 +137,7 @@ a:visited, a:hover, a:focus {
   text-decoration:none;
   width:150px;
   height:100px;
-  font-size:.9rem;
+  font-size:1.2rem;
   color:gray;
 }
 
@@ -236,7 +239,7 @@ justify-content: center;
 /* font awesome icons */
 .icon{
   color:white;
-  margin-top:15px;
+  margin-top:30px;
 
 }
 
@@ -387,10 +390,7 @@ justify-content: center;
    .modal{
      width:100%;
    }
-   .modalLinks{
-     font-size: 10pt;
-     width:50%;
-   }
+
    .fas{
       font-size:.875em;
    }
