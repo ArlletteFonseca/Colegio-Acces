@@ -76,15 +76,9 @@ a:visited, a:hover, a:focus {
   @media (max-width: 500px) {
 
    .modal{
-     width:100%;
+     display:none;
    }
-   .modalLinks{
-     font-size: 10pt;
-     width:100%;
-     display:flex;
-     justify-content: space-between;
 
-   }
 
    .images{
      background-size: contain;
