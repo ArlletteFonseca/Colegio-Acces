@@ -410,7 +410,7 @@ justify-content: center;
       display:none;
     }
    .mission{
-     font-size:.9rem;
+     font-size:1rem;
    }
    .footerImg{
      height:130px;
@@ -443,5 +443,8 @@ justify-content: center;
    }
    .pentagon i{
      font-size: 4em;
+   }
+   .socials{
+     font-size: .8rem;
    }
   }
