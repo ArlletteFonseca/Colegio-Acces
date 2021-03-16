@@ -243,7 +243,7 @@ justify-content: center;
 }
 
 /* font awesome icons */
-.icon{
+.iconIndex{
   color:white;
   margin-top:30px;
 
@@ -432,11 +432,11 @@ justify-content: center;
      font-size:.9rem;
    }
    .rectangle{
-    width:300px;
+    width:320px;
    }
 
    .rectangle span{
-     font-size: .9rem;
+     font-size: 1rem;
    }
    .modal{
      display:none;
@@ -446,5 +446,8 @@ justify-content: center;
    }
    .socials{
      font-size: .8rem;
+   }
+   .paragraph p{
+     font-size:1.4rem
    }
   }
