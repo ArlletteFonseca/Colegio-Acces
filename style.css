@@ -6,11 +6,15 @@
   box-sizing:border-box;
 
 }
+body,html{
+  overflow-x: hidden;
+}
 
 body{
   font-family: 'Source Sans Pro', sans-serif;
   line-height: 1.75em;
   font-family: 'Dosis', sans-serif;
+
 
 }
 
