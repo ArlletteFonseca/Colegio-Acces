@@ -11,7 +11,7 @@ body,html{
 }
 
 body{
-  font-family: 'Source Sans Pro', sans-serif;
+  /* font-family: 'Source Sans Pro', sans-serif; */
   line-height: 1.75em;
   font-family: 'Dosis', sans-serif;
 
@@ -433,7 +433,7 @@ justify-content: center;
    }
 
    .navbarContainer a{
-     font-size:.9rem;
+     font-size:1rem;
    }
    .rectangle{
     width:320px;

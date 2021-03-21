@@ -6,8 +6,9 @@
 
 }
 body{
-  font-family: 'Source Sans Pro', sans-serif;
+  /* font-family: 'Source Sans Pro', sans-serif; */
   line-height: 1.75em;
+     font-family: 'Dosis', sans-serif;
 }
 a{
   text-decoration:none;
@@ -88,4 +89,16 @@ a:visited, a:hover, a:focus {
    .img3,.img6,.img9{
      display:none;
    }
+  }
+
+  .degreeHeading{
+    font-size: 25px;
+    font-weight:900;
+    margin:100px 0px 50px 0px;
+  }
+
+  @media (max-width: 500px) {
+    .degreeHeading{
+      font-size: 20px;
+    }
   }
