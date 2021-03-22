@@ -36,33 +36,33 @@ a{
   margin:5px 5px;
 }
 .img1{
-  background-image: url(/img/IMG_2934.jpg);
+  background-image: url(/img/secretariado.jpg);
 }
 
 .img2{
-  background-image: url(./img/IMG_2937.jpg);
+  background-image: url(./img/secretariado2.jpg);
 
 }
 .img3{
-  background-image: url(./img/IMG_2949.jpg);
+  background-image: url(./img/secretariado3.jpg);
 }
 .img4{
-  background-image:url(./img/IMG_2970.jpg) ;
+  background-image:url(./img/construccion2.jpg) ;
 }
 .img5{
-  background-image:url(./img/IMG_2977.jpg)
+  background-image:url(./img/construccion3.jpg)
 }
 .img6{
-  background-image: url(./img/IMG_3001.jpg);
+  background-image: url(./img/construccion4.jpg);
 }
 .img7{
-  background-image: url(./img/IMG_2923.jpg);
+  background-image: url(./img/perito1.jpg);
 }
 .img8{
-  background-image: url(./img/IMG_2927.jpg);
+  background-image: url(./img/perito2.jpg);
 }
 .img9{
-  background-image: url(./img/IMG_2934.jpg)
+  background-image: url(./img/perito3.jpg)
 
 }
 .row1{
@@ -76,16 +76,16 @@ a{
    .modal{
      display:none;
    }
-
+   .navbarContainer{
+     padding:0;
+   }
 
    .images{
      background-size: contain;
      width:300px;
-     height:150px;
+
    }
-   .img3,.img6,.img9{
-     display:none;
-   }
+
   }
 
   .degreeHeading{
