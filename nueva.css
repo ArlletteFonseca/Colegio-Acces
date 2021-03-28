@@ -126,6 +126,8 @@ font-size: 1.3rem;
 }
 .titleContainer p{
   color:#d52349;
+  font-size: 25px;
+  font-weight:800;
 }
 .shadow{
 
@@ -135,7 +137,7 @@ font-size: 1.3rem;
 
 }
 
-  @media (max-width: 500px) {
+  /* @media (max-width: 500px) {
 
   #nueva-modal{
     display:none;
@@ -149,4 +151,4 @@ font-size: 1.3rem;
      display:none;
    }
 
-  }
+  } */

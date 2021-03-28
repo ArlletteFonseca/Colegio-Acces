@@ -71,7 +71,7 @@ a{
   align-items: center;
 }
 
-  @media (max-width: 500px) {
+  /* @media (max-width: 500px) {
 
    .modal{
      display:none;
@@ -98,4 +98,4 @@ a{
     .degreeHeading{
       font-size: 20px;
     }
-  }
+  } */
