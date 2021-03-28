@@ -207,8 +207,7 @@ justify-content: center;
   font-weight: 900;
   font-size:1.2rem;
   color:#252122;
-  background:rgb(243, 243, 243);
-  border-radius: 20px;
+ 
 }
 
 /* action buttons start=empezar more=aprende mas */
@@ -493,14 +492,14 @@ justify-content: center;
   width:9%;
 }
 .dropbtn{
-  width:70px;
+  width:100px;
 }
 .dropbtn span{
   display:none;
 }
 .dropbtn i {
   font-size: 25px;
-  margin-right: 20px;
+  margin-right: 52px;
   margin-top: 12px;
 }
 .aboutTitle{
