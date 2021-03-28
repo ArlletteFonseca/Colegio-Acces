@@ -132,6 +132,7 @@ body{
   justify-content: center;
   text-align:center;
   margin-top:50px;
+  line-height:1.5;
 }
 .navbarContainer{
   margin-top:50px;
@@ -206,6 +207,8 @@ justify-content: center;
   font-weight: 900;
   font-size:1.2rem;
   color:#252122;
+  background:rgb(243, 243, 243);
+  border-radius: 20px;
 }
 
 /* action buttons start=empezar more=aprende mas */
@@ -498,7 +501,10 @@ justify-content: center;
 .dropbtn i {
   font-size: 25px;
   margin-right: 20px;
-  margin-top: 10px;
+  margin-top: 12px;
+}
+.aboutTitle{
+  line-height: 1.2;
 }
   }
 
