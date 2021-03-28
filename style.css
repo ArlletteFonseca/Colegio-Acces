@@ -61,7 +61,7 @@ body{
   text-decoration: none;
 }
 .linkSearch{
-  width:10%;
+  width:7%;
 }
 .modal a{
   color:white;
@@ -417,7 +417,7 @@ justify-content: center;
     .degree h1{
       font-size:1rem;
     }
-    .calendar,.actionButtons,.dropdown{
+    .calendar,.actionButtons{
       display:none;
     }
    .mission{
@@ -429,12 +429,13 @@ justify-content: center;
    .aboutTitle{
      text-align:center;
    }
-   .modal {
-     width:100%;
-   }
 
+   .modal{
+     justify-content: flex-end;
+     left:46%;
+   }
    .mainLogo{
-     margin-top:0px;
+     margin-top:20px;
    }
 
    .email{
@@ -451,14 +452,14 @@ justify-content: center;
     height:350px;
 
    }
-
+   .modalLinks{
+     display:none;
+   }
    .rectangle span{
      font-size: 1rem;
      padding-bottom:50px;
    }
-   .modal{
-     display:none;
-   }
+
    .pentagon i{
      font-size: 4em;
    }
@@ -473,6 +474,27 @@ justify-content: center;
      height:120px;
      margin-top:10px;
    }
+     .mobile-toggle {
+    display: block;
+  }
+
+.mobile-toggle span {
+  width: 30px;
+  height: 4px;
+  margin-bottom: 6px;
+  border-radius: 1000px;
+  background: #8f8f8f;
+  display: block;
+}
+.linkSearch{
+  width:7%;
+}
+.dropbtn span{
+  display:none;
+}
+.dropbtn i {
+  font-size: 20px;
+}
   }
 
   /* tablet */
@@ -480,6 +502,8 @@ justify-content: center;
     .pentagon {
       width:70%;
     }
-
+    .linkSearch{
+      width:10%;
+    }
 
   }
