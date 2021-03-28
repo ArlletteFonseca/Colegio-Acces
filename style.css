@@ -438,7 +438,7 @@ justify-content: center;
    }
    .mainLogo{
      margin-top:20px;
-     font-size: 60px;
+     font-size: 50px;
    }
 
    .email{
@@ -505,6 +505,12 @@ justify-content: center;
 }
 .aboutTitle{
   line-height: 1.2;
+}
+.modalLinks{
+  padding-top: 10px;
+}
+.degree-title h1{
+  font-size: 1rem;
 }
   }
 

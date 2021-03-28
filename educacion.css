@@ -1,10 +1,31 @@
 
 
 .degree-title{
-  font-size: 1rem;
-  background-color:rgb(236, 232, 232);
+
+
   text-align: center;
-  border-radius: 20px;
-  font-weight: 900;
+
+
   margin:30px 0px;
+
+  display:flex;
+  align-content: center;
+  justify-content: center;
 }
+
+.degree-title h1{
+  background-color:rgb(252, 247, 247);
+  border-radius: 20px;
+  width:90%;
+  font-size: 1.2rem;
+  font-weight: 900;
+  padding:12px 12px;
+}
+
+
+
+  @media only screen and (max-width: 767px) {
+.degree-title h1{
+  font-size: 1rem;
+}
+  }
