@@ -117,7 +117,7 @@ body{
 .mainLogo{
   color:#2D2B3A;
   font-weight: bold;
-  font-size:40px;
+  font-size:70px;
   margin-top: 70px;
   margin-bottom:5px;
   width:100%;
@@ -207,7 +207,7 @@ justify-content: center;
   font-weight: 900;
   font-size:1.2rem;
   color:#252122;
- 
+
 }
 
 /* action buttons start=empezar more=aprende mas */
@@ -271,7 +271,7 @@ justify-content: center;
 .footer{
   background:#000000;
   width:100%;
-  height:900px;
+  height:800px;
   display:flex;
   justify-content: space-evenly;
 }
@@ -438,6 +438,7 @@ justify-content: center;
    }
    .mainLogo{
      margin-top:20px;
+     font-size: 60px;
    }
 
    .email{
@@ -454,7 +455,7 @@ justify-content: center;
     height:350px;
 
    }
-   .modalLinks{
+   .envelope{
      display:none;
    }
    .rectangle span{
