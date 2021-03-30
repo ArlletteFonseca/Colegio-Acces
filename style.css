@@ -73,7 +73,7 @@ body{
 .dropbtn {
   background-color: #d52349;
   color: white;
-  padding:10px 10px;
+  padding:10px 13px;
   border: none;
   cursor: pointer;
 
@@ -154,7 +154,9 @@ body{
   font-size:1.5rem;
   color:gray;
 }
-
+.subtitle{
+  font-size:2rem;
+}
 /* home section landing page styling */
 .homeLandingPicture{
   margin:0 auto;
@@ -494,7 +496,7 @@ justify-content: center;
 }
 .dropbtn{
   width:100px;
-  padding: 10px 13px;
+  padding: 10px 10px;
 }
 .dropbtn span{
   display:none;
@@ -512,6 +514,9 @@ justify-content: center;
 }
 .degree-title h1{
   font-size: 1rem;
+}
+.subtitle{
+  font-size: 1.2rem;
 }
   }
 
