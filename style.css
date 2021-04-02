@@ -518,6 +518,9 @@ justify-content: center;
 .subtitle{
   font-size: 1.2rem;
 }
+ .listContainer{
+      flex-direction: column;
+    }
   }
 
   /* tablet */
@@ -528,5 +531,6 @@ justify-content: center;
     .linkSearch{
       width:10%;
     }
+
 
   }
