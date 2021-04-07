@@ -1,4 +1,4 @@
-# Colegio-Acces
+# Colegio Acces
 <img src="./img/colegioDevices.png" width="300">
 
 Live Preview: [Colegio Acces Website](https://www.colegioacces.com/)
