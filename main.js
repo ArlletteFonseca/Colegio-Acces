@@ -35,16 +35,6 @@ function removeBold3(){
 
 // action buttons mouseover events
 
-// const startBtn=document.getElementById("empezar");
-// startBtn.addEventListener("mouseover",addLight);
-// startBtn.addEventListener("mouseout",removeLight);
-// function addLight(){
-//   startBtn.classList.add("light");
-// }
-// function removeLight(){
-//   startBtn.classList.remove("light");
-// }
-
 const moreBtn=document.getElementById("aprende");
 moreBtn.addEventListener("mouseover",addDark);
 moreBtn.addEventListener("mouseout",removeDark);
@@ -58,16 +48,30 @@ function removeDark(){
 }
 
 //  updated js
-const pentagon = document.getElementsByClassName('pentagonContainer');
 
 
-for (let i = 0; i <= pentagon.length; i++) {
-  pentagon[i].addEventListener('mouseover', () => {
-    pentagon[i].classList.add('shadowBox');
-  })
-  pentagon[i].addEventListener('mouseout', () => {
-    pentagon[i].classList.remove('shadowBox');
+const cogPentagon = document.getElementById('cog');
 
-  })
+cogPentagon.addEventListener('mouseover', () => {
+  cogPentagon.classList.add('shadowBox');
+})
 
-}
+ cogPentagon.addEventListener('mouseout', () => {
+  cogPentagon.classList.remove('shadowBox');
+ })
+
+  const boltPentagon = document.getElementById('bolt');
+boltPentagon.addEventListener('mouseover', () => {
+ boltPentagon.classList.add('shadowBox');
+  });
+   boltPentagon.addEventListener('mouseout', () => {
+ boltPentagon.classList.remove('shadowBox');
+ })
+
+  const starPentagon = document.getElementById('star');
+starPentagon.addEventListener('mouseover', () => {
+  starPentagon.classList.add('shadowBox');
+  });
+  starPentagon.addEventListener('mouseout', () => {
+ starPentagon.classList.remove('shadowBox');
+ })

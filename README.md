@@ -1,5 +1,5 @@
 # Colegio Acces
-<img src="./img/colegioDevices.png" width="300">
+<img src="./img/colegioDevices.png" width="400">
 
 Live Preview: [Colegio Acces Website](https://www.colegioacces.com/)
 
